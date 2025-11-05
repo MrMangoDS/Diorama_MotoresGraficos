@@ -130,6 +130,7 @@ GameObject:
   - component: {fileID: 211262763}
   - component: {fileID: 211262762}
   - component: {fileID: 211262761}
+  - component: {fileID: 211262764}
   m_Layer: 0
   m_Name: Spot Light
   m_TagString: Untagged
@@ -171,10 +172,10 @@ Light:
   serializedVersion: 11
   m_Type: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 3
+  m_Intensity: 106.88
   m_Range: 5
-  m_SpotAngle: 50.074768
-  m_InnerSpotAngle: 38.53105
+  m_SpotAngle: 161.43457
+  m_InnerSpotAngle: 77.84413
   m_CookieSize: 10
   m_Shadows:
     m_Type: 0
@@ -234,12 +235,34 @@ Transform:
   m_GameObject: {fileID: 211262760}
   serializedVersion: 2
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -11.982, y: 5.531, z: -26.002}
+  m_LocalPosition: {x: -11.982, y: 6.08, z: -26.002}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!95 &211262764
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 211262760}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 8149b964408851a4da355b967bfd7ea7, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &330585543
 GameObject:
   m_ObjectHideFlags: 0
@@ -2039,6 +2062,10 @@ PrefabInstance:
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 306c3bcef0ed1614d8d946f74916b61d, type: 2}
+    - target: {fileID: 3802040771570391256, guid: fa6e2ab8326466445bbac300cb3d61b1, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: d5dda58114acfd14d8a345e5fcc7c810, type: 2}
     - target: {fileID: 3813643779207075249, guid: fa6e2ab8326466445bbac300cb3d61b1, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -2588,7 +2615,9 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2100000, guid: bce5794f0a83123428b1453e97e39810, type: 2}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: -3572623840192337565, guid: fa6e2ab8326466445bbac300cb3d61b1, type: 3}
+    - {fileID: -5516208043485561111, guid: fa6e2ab8326466445bbac300cb3d61b1, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fa6e2ab8326466445bbac300cb3d61b1, type: 3}
